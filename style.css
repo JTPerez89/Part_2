@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0px 40px;
+    font-family: sans-serif;
+}
+
+header {
+    height: 30px;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.feed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+img {
+    height: 80px;
+    margin-top: 30px;
+}
+
+.left {
+    height: fit-content;
+    padding: 30px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.left a {
+    margin-top: 30px;
+}
+
+.left h1 {
+    margin: 30px 15px 40px;
+}
+
+.rightBoxes {
+    width: 100%;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.rightText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innerText {
+    display: flex;
+    margin-top: 20px;
+}
+
+.innerText a {
+    margin-left: 5px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    background-color: rgba(223, 202, 12, 0.76);
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin-left: 30px;
+}
+
+.marginTop {
+    margin-top: 20px;
+}
